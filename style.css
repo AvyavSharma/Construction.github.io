@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.menucontainer {
+  width: 100%;
+  background-color: #f7e32e;
+  height: 9vh;
+}
+.menucontainer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 1.5vh;
+  transition: 0.7s;
+}
+.menucontainer a:hover {
+  background-color: black;
+  color: #f7e32e;
+  border-radius: 50px;
+  transition-timing-function: ease-in-out;
+}
+.menucontainer ul {
+  padding-top: 3vh;
+  padding-left: 12%;
+}
+.menucontainer li {
+  display: inline;
+  padding: 0.5vw;
+}
+.shopping {
+  display: inline;
+  position: absolute;
+  top: 0vh;
+  right: 9.5vh;
+  width: 5vw;
+  height: 9vh;
+  background-color: #fff100;
+  cursor: pointer;
+}
+.shopping img {
+  height: 4vh;
+  padding-top: 23%;
+  padding-left: 30%;
+}
+.search {
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0.01vh;
+  width: 5vw;
+  height: 9vh;
+  background-color: black;
+  cursor: pointer;
+}
+.search img {
+  height: 3.7vh;
+  padding-top: 25%;
+  padding-left: 31%;
+}
+.home {
+  background-image: url(cons1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 78vh;
+}
+.home div {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 78vh;
+}
+.home h2 {
+  font-weight: 100;
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 15%;
+  color: white;
+}
+.home h1 {
+  font-weight: bolder;
+  font-size: 3.5em;
+  text-align: center;
+  color: white;
+}
+#p1 {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  font-family: monotype corsiva;
+}
+#p2 {
+  font-size: 0.7em;
+  color: white;
+  text-align: center;
+  padding-top: 4vh;
+  color: #f7e32e;
+}
+.home section {
+  height: 10vh;
+  width: 15vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 77vh;
+  left: 70vw;
+}
+.home section p {
+  color: white;
+  font-size: 0.8em;
+  padding: 5px;
+  padding-left: 20px;
+}
+.homefooter {
+  height: 13vh;
+  background-color: #141313;
+}
+#map {
+  height: 12vh;
+  width: 16vw;
+  margin-left: 30%;
+  margin-top: 0.4vh;
+  z-index: 100;
+}
+#p3 {
+  position: absolute;
+  font-size: 1.6em;
+  color: white;
+  font-family: comic sans ms;
+  margin-left: 37%;
+  margin-top: 1.5%;
+  opacity: 0.8;
+}
+.homefooter h1 {
+  font-size: 1.4em;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 0.5%;
+  opacity: 0.9;
+  color: white;
+}
+.homefooter span {
+  font-weight: lighter;
+}
+.homefooter section {
+  font-size: 0.8em;
+  font-style: italic;
+  position: absolute;
+  color: white;
+  opacity: 0.7;
+  margin-top: -6vh;
+  margin-left: 39.5%;
+}
